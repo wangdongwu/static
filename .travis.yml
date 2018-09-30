@@ -8,6 +8,5 @@ branches:
     - master
 
 install:
-  - npm install hexo-cli -g
   - npm install
   - npm run build

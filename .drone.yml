@@ -1,11 +1,6 @@
-clone:
-  git:
-    image: plugins/git
 pipeline:
-  frontend:
-    group: build
+  backend:
     image: node
     commands:
       - npm install
       - npm run build
-  branches: [ master, feature/* ]
